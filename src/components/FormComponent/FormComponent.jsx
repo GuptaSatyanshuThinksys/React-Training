@@ -11,7 +11,7 @@ const userInfoSchema = object({
     .positive("Age must be positive")
     .integer("Age must be an integer"),
   gender: string()
-    .transform((value) => (typeof value !== string ? undefined : value))
+    .transform((value) => (!value.length ? undefined : value))
     .required("Gender is required")
     .test(
       "isGender",
