@@ -1,0 +1,149 @@
+.form-root-div {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formHeader h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.firstName,
+.lastName {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.lastName {
+  margin-right: 0;
+}
+
+.ageAndGender {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.age,
+.gender {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.gender {
+  margin-right: 0;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.email,
+.phone {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.phone {
+  margin-right: 0;
+}
+
+.password {
+  margin-bottom: 20px;
+}
+
+.error {
+  color: #d9534f;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+input:invalid {
+  border-color: #d9534f;
+}
+
+.submission-root-div {
+  display: flex;
+  justify-content: center;
+}
+
+.submission-result {
+  width: 700px;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #eaffea;
+  border: 1px solid #d4edda;
+  border-radius: 4px;
+  color: #155724;
+}
+
+.submission-result h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.submission-result table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.submission-result th,
+.submission-result td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.submission-result th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.submission-result tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

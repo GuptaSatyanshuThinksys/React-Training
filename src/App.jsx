@@ -3,6 +3,7 @@ import "./App.css";
 import { Navbar } from "./components/Navbar/Navbar";
 import { TabularUI } from "./components/TabularUI/TabularUI";
 import { StopWatch } from "./components/StopWatch/StopWatch";
+import { FormComponent } from "./components/FormComponent/FormComponent";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<h1>Welcome Home</h1>} />
           <Route path="/table" element={<TabularUI />} />
           <Route path="/stopwatch" element={<StopWatch />} />
+          <Route path="/form" element={<FormComponent />} />
         </Routes>
       </Router>
     </div>

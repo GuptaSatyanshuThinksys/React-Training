@@ -12,6 +12,9 @@ export const Navbar = () => {
         <li className="nav-item">
           <Link to="/stopwatch">Stopwatch</Link>
         </li>
+        <li className="nav-item">
+          <Link to="form">Form</Link>
+        </li>
       </ul>
     </nav>
   );
