@@ -43,7 +43,7 @@ export const TabularUI = () => {
         </div>
       ) : (
         <div>
-          <h1>No data Available!!!</h1>
+          <h1 className="my-5">No data Available!!!</h1>
           <span type="button" className="button" onClick={fetchTableData}>
             <b>Fetch Data</b>
           </span>
